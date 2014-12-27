@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>The Cool Socket.IO chat</title>
+    <link href="assets/css/chat.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div id="main">
+
+      <header>
+        <h1>The Chat Room</h1>
+        <p id="nickname"> 
+          Nickname: <b></b> 
+        </p>
+        <div class="clear"></div>
+      </header>
+
+      <div id="set-nickname">
+        <h2>Welcome! Enter a Nickname</h2>
+        <form>
+          <input type="text" autocomplete="off" required autofocus placeholder="Nickname" />
+          <br />
+          <br />
+          <button>Join Chat</button>
+        </form>
+      </div>
+
+      <div id="chat">
+        <ul id="messages"></ul>
+        <form action="">
+          <div id="typing"></div>
+          <input autocomplete="off" placeholder="Type a message..." /><button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div id="online">
+        <h2>Who's here?</h2>
+        <ul></ul>
+      </div>
+
+    </div>
+
+    <footer><b>Made by Nathan Johnson.</b> <br>This chat uses Node.js and Socket.io</footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/chat-frontend.js"></script>
+
+  </body>
+</html>
