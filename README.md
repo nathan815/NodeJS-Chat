@@ -7,7 +7,7 @@ A simple chat application I made with Node.js and Socket.io.
 
 This started out with Socket.io's [basic chat application tutorial](http://socket.io/get-started/chat/).
 
-I made this mainly to just try out and learn how to use Node.js and Socket.io, but anyone is welcome to use this and improve it. If you make any improvements remember to send a pull request to share them.
+I made this mainly just to try out and learn how to use Node.js and Socket.io, but anyone is welcome to use and improve this.
 
 ## Setup
 
@@ -21,7 +21,7 @@ Follow these steps to setup and run this chat application on your computer:
     $ cd NodeJS-Chat
     ```
 
-2. Use Node Package Manager to install the dependencies.
+2. Use Node Package Manager (included with Node.js) to install the dependencies.
    ```
    $ npm install
    ```
@@ -31,7 +31,7 @@ Follow these steps to setup and run this chat application on your computer:
    $ node chat.js
    ```
    
-If everything worked out properly, you should be able to access the chat application at `http://localhost:3000/`!
+If everything worked out properly, you should be able to access the chat application at `http://localhost:3000/`.
 
 ## Contributing
 
