@@ -11,11 +11,11 @@ I made this mainly just to try out and learn how to use Node.js and Socket.io, b
 
 ## Setup
 
-Obviously, you'll need Node.js to use this. See [this tutorial](http://nodeguide.com/beginner.html) to learn how to install it.
+Obviously, you'll need Node.js to use this. Get it from the [Node.js downloads page](http://nodejs.org/download/).
 
-Follow these steps to setup and run this chat application on your computer:
+Follow these steps to setup and run the chat application on your computer:
 
-1. Clone this repository and then open the directory.
+1. Clone this repository and then go to the directory.
     ```
     $ git clone https://github.com/NathanCJohnson/NodeJS-Chat.git
     $ cd NodeJS-Chat
