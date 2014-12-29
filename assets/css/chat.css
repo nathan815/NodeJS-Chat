@@ -113,6 +113,7 @@ header p#nickname {
   background: #e9e9e9;
   width: 65%;
   margin: 10px 0;
+  word-wrap: break-word;
 }
 #messages li.by-me {
   margin-left: auto;
