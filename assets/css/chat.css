@@ -9,6 +9,12 @@ body {
   background: #ddd;
 }
 
+#github {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #main {
   position: relative;
   width: 500px;
