@@ -23,7 +23,7 @@ Follow these steps to setup and run the chat application on your computer:
 
 2. Use Node Package Manager (included with Node.js) to install the dependencies.
    ```
-   $ npm install
+   $ sudo npm install
    ```
 
 3. Run the chat application server.
