@@ -58,7 +58,7 @@
 
     $('#chat form').submit(function(){
       var input = $('input', this);
-      var msg = $.trim(htmlentities(input.val()));
+      var msg = $.trim(input.val());
       if(msg == '') {
         return false;
       }
@@ -138,7 +138,7 @@
           text = 'has left the chat room.';
         break;
       }
-      var msg = '<b>'+data.nickname+'</b> ' + text;
+      var msg = '<b>'+htmlentities(data.nickname)+'</b> ' + text;
       var li = $('<li>').html(msg).addClass('status');
       $('#messages').append(li);
       scrollBottom();
@@ -199,7 +199,7 @@
              .append(
                $('<div>').addClass('name').text(data.nickname)
              )
-             .append(data.msg);
+             .append(htmlentities(data.msg));
 
     if(sentByMe) {
       li.addClass('by-me');
@@ -225,7 +225,7 @@
 
     for(var i = 0; i < users.length; ++i) {
       var user = users[i];
-      var li = $('<li>').text(user);
+      var li = $('<li>').text(htmlentities(user));
       onlineUl.append(li);
     }
 
